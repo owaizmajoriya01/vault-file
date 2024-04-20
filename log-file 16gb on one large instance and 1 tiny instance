@@ -1,0 +1,73 @@
+NUM_THREADS=4
+BATCH_SIZE=131072
+num_threads_sort=4
+num_threads_io=4
+memory_size=2 GB
+FILESIZE=16 GB
+FILENAME=data-16GB.bin
+bytes_free=5442396160
+ratio=3
+memory_size_byte=1789569706
+FILESIZE_byte=5368709120
+-------------------------
+found good configuration:
+memory_size_byte=1789569024
+FILESIZE_byte=5368707072
+WRITE_SIZE=27962016
+FLUSH_SIZE=3
+BUCKET_SIZE=5242878
+NUM_BUCKETS=64
+PREFIX_SIZE=6
+EXPECTED_TOTAL_FLUSHES=192
+sort_memory=335544192
+NUM_ENTRIES=335544192
+Total Memory: 4110282752 bytes
+Free Memory: 196845568 bytes
+MEMORY_MAX=1789569024
+RECORD_SIZE=16
+HASH_SIZE=10
+NONCE_SIZE=6
+num_threads_hash=4
+num_threads_sort=4
+num_threads_io=4
+storing vault configuration in data-16GB.bin.config
+hash generation and sorting...
+initializing circular array...
+Create thread data structure...
+Create hash generation threads...
+Hash generation threads created...
+[1][HASHGEN]: 6.25% completed, ETA 15.0 seconds, 0/192 flushes, 319.9 MB/sec
+[2][HASHGEN]: 13.48% completed, ETA 12.9 seconds, 0/192 flushes, 368.7 MB/sec
+[3][HASHGEN]: 20.78% completed, ETA 11.5 seconds, 0/192 flushes, 372.6 MB/sec
+[4][HASHGEN]: 28.01% completed, ETA 10.3 seconds, 0/192 flushes, 368.3 MB/sec
+[5][HASHGEN]: 33.28% completed, ETA 10.6 seconds, 20/192 flushes, 207.9 MB/sec
+[6][HASHGEN]: 33.36% completed, ETA 13.0 seconds, 63/192 flushes, 3.4 MB/sec
+[7][HASHGEN]: 40.39% completed, ETA 11.1 seconds, 64/192 flushes, 359.7 MB/sec
+[8][HASHGEN]: 47.07% completed, ETA 9.6 seconds, 64/192 flushes, 340.6 MB/sec
+[9][HASHGEN]: 54.41% completed, ETA 8.0 seconds, 64/192 flushes, 375.8 MB/sec
+[10][HASHGEN]: 61.80% completed, ETA 6.5 seconds, 64/192 flushes, 376.5 MB/sec
+[11][HASHGEN]: 66.60% completed, ETA 5.9 seconds, 83/192 flushes, 196.2 MB/sec
+[12][HASHGEN]: 66.68% completed, ETA 6.5 seconds, 123/192 flushes, 3.3 MB/sec
+[13][HASHGEN]: 72.42% completed, ETA 5.3 seconds, 128/192 flushes, 293.2 MB/sec
+[14][HASHGEN]: 79.30% completed, ETA 3.9 seconds, 128/192 flushes, 351.6 MB/sec
+[15][HASHGEN]: 86.76% completed, ETA 2.4 seconds, 128/192 flushes, 380.4 MB/sec
+[16][HASHGEN]: 93.98% completed, ETA 1.1 seconds, 128/192 flushes, 368.3 MB/sec
+[18][HASHGEN]: 99.92% completed, ETA 0.0 seconds, 140/192 flushes, 245.1 MB/sec
+[19][HASHGEN]: 100.00% completed, ETA 0.0 seconds, 181/192 flushes, 3.5 MB/sec
+[22][SORT]: 0.00% completed, ETA inf seconds, 0/64 flushes, 0.0 MB/sec
+[24][SORT]: 6.25% completed, ETA 61.0 seconds, 4/64 flushes, 157.5 MB/sec
+[26][SORT]: 12.50% completed, ETA 42.5 seconds, 8/64 flushes, 159.6 MB/sec
+[28][SORT]: 18.75% completed, ETA 35.4 seconds, 12/64 flushes, 152.9 MB/sec
+[30][SORT]: 25.00% completed, ETA 30.6 seconds, 16/64 flushes, 157.2 MB/sec
+[32][SORT]: 31.25% completed, ETA 27.1 seconds, 20/64 flushes, 151.7 MB/sec
+[34][SORT]: 37.50% completed, ETA 24.0 seconds, 24/64 flushes, 153.3 MB/sec
+[36][SORT]: 43.75% completed, ETA 21.1 seconds, 28/64 flushes, 160.6 MB/sec
+[38][SORT]: 50.00% completed, ETA 18.4 seconds, 32/64 flushes, 157.8 MB/sec
+[40][SORT]: 56.25% completed, ETA 16.0 seconds, 36/64 flushes, 151.8 MB/sec
+[42][SORT]: 62.50% completed, ETA 13.5 seconds, 40/64 flushes, 160.9 MB/sec
+[45][SORT]: 68.75% completed, ETA 11.2 seconds, 44/64 flushes, 146.0 MB/sec
+[47][SORT]: 75.00% completed, ETA 8.9 seconds, 48/64 flushes, 157.6 MB/sec
+[49][SORT]: 81.25% completed, ETA 6.6 seconds, 52/64 flushes, 156.6 MB/sec
+[51][SORT]: 87.50% completed, ETA 4.4 seconds, 56/64 flushes, 154.0 MB/sec
+[53][SORT]: 93.75% completed, ETA 2.2 seconds, 60/64 flushes, 154.9 MB/sec
+Completed 5 GB vault data-16GB.bin in 52.80 seconds : 6.35 MH/s 96.96 MB/s
